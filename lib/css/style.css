@@ -1,0 +1,53 @@
+body {
+    font: 100% sans-serif;
+    margin-left: 25rem;
+}
+    #app {
+    padding: 2rem;
+    width: 100%;
+
+}
+    h2, h1 {
+    font-size: 120%;
+}
+    label {
+    display: block;
+}
+    ul {
+    max-width: 30rem;
+    list-style: none;
+    padding-left: 0;
+}
+    li {
+    padding: 5px;
+    border-radius: 4px;
+    border: #364544 1px solid;
+    margin: 5px 0px;
+    display: flex; 
+    align-items: center; 
+    color: black;
+    font-size: 100%;
+    background: linear-gradient(to right, #ffffff 37%, #e0e0e0 71%);
+}
+    li p {
+    margin: 0;
+}
+    li button {
+    border-radius: 4px;
+    color: #FFF;
+}
+    .erledigtWechseln { 
+    margin-left: auto; 
+} 
+    .loeschen {
+    background-color: rgb(252, 172, 24);
+}
+    .erledigtWechseln { 
+    background-color: #fa4f24; 
+} 
+    .abgeschlossen .erledigtWechseln { 
+    background-color: #1c89ff; 
+} 
+    .abgeschlossen p { 
+    text-decoration: line-through; 
+}
